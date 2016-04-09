@@ -1,10 +1,10 @@
-# php-wrapper-cookbook
+# php-cookbook
 
-TODO: Enter the cookbook description here.
+This cookbook is a wrapper cookbook for the [php cookbook](https://github.com/chef-cookbooks/php).
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+Ubuntu
 
 ## Attributes
 
@@ -25,14 +25,14 @@ TODO: List your supported platforms.
 
 ## Usage
 
-### php-wrapper::default
+### php-cookbook::default
 
 Include `php-wrapper` in your node's `run_list`:
 
 ```json
 {
   "run_list": [
-    "recipe[php-wrapper::default]"
+    "recipe[php-cookbook::default]"
   ]
 }
 ```
